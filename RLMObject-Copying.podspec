@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'RLMObject-Copying'
-  s.version = '0.0.2'
+  s.version = '0.0.3'
   s.summary = 'RLMObject-Copying'
   s.homepage = 'https://github.com/yusuga/RLMObject-Copying'
   s.license = 'MIT'
@@ -12,5 +12,5 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.compiler_flags = '-fmodules'
   
-  s.dependency 'Realm', '0.94.1'
+  s.dependency 'Realm', '0.95.3'
 end
