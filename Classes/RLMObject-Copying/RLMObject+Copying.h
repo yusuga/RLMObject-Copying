@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 Yu Sugawara. All rights reserved.
 //
 
-#import "RLMObject.h"
+#import <Realm/RLMObject.h>
 
 @interface RLMObject (Copying)
 
