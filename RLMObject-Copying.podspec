@@ -12,5 +12,5 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.compiler_flags = '-fmodules'
   
-  s.dependency 'Realm', '0.95.3'
+  s.dependency 'Realm', '~>0.97.1'
 end
