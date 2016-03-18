@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'RLMObject-Copying'
-  s.version = '0.0.3'
+  s.version = '0.0.4'
   s.summary = 'RLMObject-Copying'
   s.homepage = 'https://github.com/yusuga/RLMObject-Copying'
   s.license = 'MIT'
