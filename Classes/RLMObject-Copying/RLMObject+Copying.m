@@ -51,10 +51,12 @@
             default:
             {
                 id value = [self valueForKeyPath:property.name];
-                if (![value conformsToProtocol:@protocol(NSCopying)]) {
-                    @throw [NSString stringWithFormat:@"%@ does not conform to NSCopying", NSStringFromClass([value class])];
+                if (value) {
+                    if (![value conformsToProtocol:@protocol(NSCopying)]) {
+                        @throw [NSString stringWithFormat:@"%@ does not conform to NSCopying", NSStringFromClass([value class])];
+                    }
+                    [object setValue:[value copy] forKeyPath:property.name];
                 }
-                [object setValue:[value copy] forKeyPath:property.name];
                 break;
             }
         }
