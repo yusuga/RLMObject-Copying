@@ -21,7 +21,6 @@
              NSStringFromSelector(@selector(doubleValue)) : @(DBL_MAX),
              NSStringFromSelector(@selector(string)) : [NSString defualtString],
              NSStringFromSelector(@selector(data)) : [NSData defualtData],
-             NSStringFromSelector(@selector(any)) : [NSData defualtData],
              NSStringFromSelector(@selector(date)) : [NSDate defualtDate]};
 }
 

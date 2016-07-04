@@ -21,7 +21,6 @@
 @property double doubleValue;       // RLMPropertyTypeDouble
 @property NSString *string;         // RLMPropertyTypeString
 @property NSData *data;             // RLMPropertyTypeData
-@property id any;                   // RLMPropertyTypeAny
 @property NSDate *date;             // RLMPropertyTypeDate
 
 @end

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7BAEDF39B79768C41B4ADB24 /* libPods-RLMObject-CopyingExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E69E26D44F060723334F44 /* libPods-RLMObject-CopyingExample.a */; };
+		99AB717401B99B4F5AD1359C /* libPods-RLMObject-CopyingExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 15FD3A59E379D418A2DDB0FA /* libPods-RLMObject-CopyingExampleTests.a */; };
 		B8606E211B4CDC2F00FD6972 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8606E201B4CDC2F00FD6972 /* main.m */; };
 		B8606E241B4CDC2F00FD6972 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8606E231B4CDC2F00FD6972 /* AppDelegate.m */; };
 		B8606E271B4CDC2F00FD6972 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8606E261B4CDC2F00FD6972 /* ViewController.m */; };
@@ -22,7 +24,6 @@
 		B8606E5C1B4CF58D00FD6972 /* NSString+CopyingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8606E5B1B4CF58D00FD6972 /* NSString+CopyingTests.m */; };
 		B8606E5F1B4CF59D00FD6972 /* NSData+CopyingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8606E5E1B4CF59D00FD6972 /* NSData+CopyingTests.m */; };
 		B8606E621B4CF5B300FD6972 /* NSDate+CopyingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8606E611B4CF5B300FD6972 /* NSDate+CopyingTests.m */; };
-		BF451EF4C40D2A6D5FA99BC4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0D27E31B074F6E6BEE81ED7 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		42E93265169D19B1C7956837 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		4C6935709CC026A7E0381A2E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		15FD3A59E379D418A2DDB0FA /* libPods-RLMObject-CopyingExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RLMObject-CopyingExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E4296738B62069BDD6EAF80 /* Pods-RLMObject-CopyingExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RLMObject-CopyingExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RLMObject-CopyingExampleTests/Pods-RLMObject-CopyingExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		67E69E26D44F060723334F44 /* libPods-RLMObject-CopyingExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RLMObject-CopyingExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D84C0CAD22C0F58E9367E03 /* Pods-RLMObject-CopyingExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RLMObject-CopyingExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RLMObject-CopyingExampleTests/Pods-RLMObject-CopyingExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		B8606E1B1B4CDC2F00FD6972 /* RLMObject-CopyingExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RLMObject-CopyingExample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8606E1F1B4CDC2F00FD6972 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8606E201B4CDC2F00FD6972 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -67,7 +70,8 @@
 		B8606E5E1B4CF59D00FD6972 /* NSData+CopyingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CopyingTests.m"; sourceTree = "<group>"; };
 		B8606E601B4CF5B300FD6972 /* NSDate+CopyingTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+CopyingTests.h"; sourceTree = "<group>"; };
 		B8606E611B4CF5B300FD6972 /* NSDate+CopyingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+CopyingTests.m"; sourceTree = "<group>"; };
-		C0D27E31B074F6E6BEE81ED7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDAA35866EEED39E68CE7BE9 /* Pods-RLMObject-CopyingExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RLMObject-CopyingExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RLMObject-CopyingExample/Pods-RLMObject-CopyingExample.debug.xcconfig"; sourceTree = "<group>"; };
+		D644173946FE0707A677E940 /* Pods-RLMObject-CopyingExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RLMObject-CopyingExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-RLMObject-CopyingExample/Pods-RLMObject-CopyingExample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF451EF4C40D2A6D5FA99BC4 /* libPods.a in Frameworks */,
+				7BAEDF39B79768C41B4ADB24 /* libPods-RLMObject-CopyingExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,25 +87,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99AB717401B99B4F5AD1359C /* libPods-RLMObject-CopyingExampleTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6E50DD598FB9A20DF1FE696F /* Pods */ = {
+		51E2851DE054E4469D3A8D46 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4C6935709CC026A7E0381A2E /* Pods.debug.xcconfig */,
-				42E93265169D19B1C7956837 /* Pods.release.xcconfig */,
+				CDAA35866EEED39E68CE7BE9 /* Pods-RLMObject-CopyingExample.debug.xcconfig */,
+				D644173946FE0707A677E940 /* Pods-RLMObject-CopyingExample.release.xcconfig */,
+				5E4296738B62069BDD6EAF80 /* Pods-RLMObject-CopyingExampleTests.debug.xcconfig */,
+				7D84C0CAD22C0F58E9367E03 /* Pods-RLMObject-CopyingExampleTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		AD5C83DCB00A6A30993662D9 /* Frameworks */ = {
+		5B420788A097F46CC1A36D7E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C0D27E31B074F6E6BEE81ED7 /* libPods.a */,
+				67E69E26D44F060723334F44 /* libPods-RLMObject-CopyingExample.a */,
+				15FD3A59E379D418A2DDB0FA /* libPods-RLMObject-CopyingExampleTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -113,8 +121,8 @@
 				B8606E441B4CDD8700FD6972 /* RLMObject-Copying */,
 				B8606E371B4CDC2F00FD6972 /* RLMObject-CopyingExampleTests */,
 				B8606E1C1B4CDC2F00FD6972 /* Products */,
-				6E50DD598FB9A20DF1FE696F /* Pods */,
-				AD5C83DCB00A6A30993662D9 /* Frameworks */,
+				51E2851DE054E4469D3A8D46 /* Pods */,
+				5B420788A097F46CC1A36D7E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -215,12 +223,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B8606E3E1B4CDC2F00FD6972 /* Build configuration list for PBXNativeTarget "RLMObject-CopyingExample" */;
 			buildPhases = (
-				FA66EE41428469BA0472BED1 /* Check Pods Manifest.lock */,
+				D55770F2843DC059D0CD4169 /* [CP] Check Pods Manifest.lock */,
 				B8606E171B4CDC2F00FD6972 /* Sources */,
 				B8606E181B4CDC2F00FD6972 /* Frameworks */,
 				B8606E191B4CDC2F00FD6972 /* Resources */,
-				893FF4F3DD3C80D69CA9F512 /* Copy Pods Resources */,
-				4AD4175D35D2CF166F2DA84D /* Embed Pods Frameworks */,
+				331980A02A34A41680817A24 /* [CP] Embed Pods Frameworks */,
+				6257E15D169FBAAA376B6D70 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,9 +243,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B8606E411B4CDC2F00FD6972 /* Build configuration list for PBXNativeTarget "RLMObject-CopyingExampleTests" */;
 			buildPhases = (
+				CB92650220AC0D89322B94E9 /* [CP] Check Pods Manifest.lock */,
 				B8606E301B4CDC2F00FD6972 /* Sources */,
 				B8606E311B4CDC2F00FD6972 /* Frameworks */,
 				B8606E321B4CDC2F00FD6972 /* Resources */,
+				2FBF149FCF589C25E43C4411 /* [CP] Embed Pods Frameworks */,
+				78B72EB550891A19E76E8418 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -307,44 +318,89 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4AD4175D35D2CF166F2DA84D /* Embed Pods Frameworks */ = {
+		2FBF149FCF589C25E43C4411 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RLMObject-CopyingExampleTests/Pods-RLMObject-CopyingExampleTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		893FF4F3DD3C80D69CA9F512 /* Copy Pods Resources */ = {
+		331980A02A34A41680817A24 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RLMObject-CopyingExample/Pods-RLMObject-CopyingExample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FA66EE41428469BA0472BED1 /* Check Pods Manifest.lock */ = {
+		6257E15D169FBAAA376B6D70 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RLMObject-CopyingExample/Pods-RLMObject-CopyingExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78B72EB550891A19E76E8418 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RLMObject-CopyingExampleTests/Pods-RLMObject-CopyingExampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB92650220AC0D89322B94E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D55770F2843DC059D0CD4169 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -494,7 +550,7 @@
 		};
 		B8606E3F1B4CDC2F00FD6972 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C6935709CC026A7E0381A2E /* Pods.debug.xcconfig */;
+			baseConfigurationReference = CDAA35866EEED39E68CE7BE9 /* Pods-RLMObject-CopyingExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -508,7 +564,7 @@
 		};
 		B8606E401B4CDC2F00FD6972 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 42E93265169D19B1C7956837 /* Pods.release.xcconfig */;
+			baseConfigurationReference = D644173946FE0707A677E940 /* Pods-RLMObject-CopyingExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -522,6 +578,7 @@
 		};
 		B8606E421B4CDC2F00FD6972 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E4296738B62069BDD6EAF80 /* Pods-RLMObject-CopyingExampleTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
@@ -544,6 +601,7 @@
 		};
 		B8606E431B4CDC2F00FD6972 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D84C0CAD22C0F58E9367E03 /* Pods-RLMObject-CopyingExampleTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
