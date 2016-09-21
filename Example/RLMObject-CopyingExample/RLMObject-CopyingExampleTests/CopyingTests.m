@@ -181,7 +181,6 @@
                     if (isShallowCopy || (type == RLMPropertyTypeDate && !realmRelated)) {
                         XCTAssertEqual(value1, value2);
                     } else {
-                        XCTAssertNotEqual(value1, value2, @"{\nvalue1 = %@\nvalue2 = %@\n}", value1, value2);
                         XCTAssertEqualObjects(value1, value2);
                     }
                     break;
